@@ -1,0 +1,8 @@
+prefix=/home/kamerider/catkin_ws/devel
+
+Name: turtlebot_arm_description
+Description: Description of turtlebot_arm_description
+Version: 0.3.3
+Cflags: 
+Libs: -L/home/kamerider/catkin_ws/devel/lib 
+Requires: 

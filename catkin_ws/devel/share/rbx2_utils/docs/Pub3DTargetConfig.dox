@@ -1,0 +1,8 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~rate" : \b [int] Update rate min: 1, default: 20, max: 50
+- \b "~move_target_rate" : \b [int] Move target rate min: 1, default: 20, max: 50
+- \b "~speed" : \b [double] Target speed min: 0.0, default: 1.5, max: 5.0
+

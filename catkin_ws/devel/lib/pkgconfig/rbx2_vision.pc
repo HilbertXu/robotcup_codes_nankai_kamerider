@@ -1,0 +1,8 @@
+prefix=/home/kamerider/catkin_ws/devel
+
+Name: rbx2_vision
+Description: Description of rbx2_vision
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/kamerider/catkin_ws/devel/lib 
+Requires: 

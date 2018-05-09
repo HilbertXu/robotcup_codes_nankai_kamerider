@@ -1,0 +1,10 @@
+(cl:defpackage rbx2_msgs-srv
+  (:use )
+  (:export
+   "SETBATTERYLEVEL"
+   "<SETBATTERYLEVEL-REQUEST>"
+   "SETBATTERYLEVEL-REQUEST"
+   "<SETBATTERYLEVEL-RESPONSE>"
+   "SETBATTERYLEVEL-RESPONSE"
+  ))
+

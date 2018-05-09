@@ -1,0 +1,8 @@
+prefix=/home/kamerider/catkin_ws/install
+
+Name: rbx2_utils
+Description: Description of rbx2_utils
+Version: 0.1.0
+Cflags: -I/home/kamerider/catkin_ws/install/include
+Libs: -L/home/kamerider/catkin_ws/install/lib 
+Requires: dynamic_reconfigure message_runtime

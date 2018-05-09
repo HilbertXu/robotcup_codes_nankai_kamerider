@@ -1,0 +1,8 @@
+prefix=/home/kamerider/catkin_ws/install
+
+Name: dynamixel_controllers
+Description: Description of dynamixel_controllers
+Version: 0.4.1
+Cflags: -I/home/kamerider/catkin_ws/install/include
+Libs: -L/home/kamerider/catkin_ws/install/lib 
+Requires: rospy actionlib dynamixel_driver std_msgs trajectory_msgs diagnostic_msgs dynamixel_msgs control_msgs

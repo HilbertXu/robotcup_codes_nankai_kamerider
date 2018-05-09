@@ -1,0 +1,8 @@
+prefix=/home/kamerider/catkin_ws/devel
+
+Name: navigation_test
+Description: Description of navigation_test
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kamerider/catkin_ws/devel/lib 
+Requires: 

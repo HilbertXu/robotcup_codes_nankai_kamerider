@@ -1,0 +1,8 @@
+prefix=/home/kamerider/catkin_ws/devel
+
+Name: imgpcl
+Description: Description of imgpcl
+Version: 0.0.0
+Cflags: -I/home/kamerider/catkin_ws/devel/include -I/home/kamerider/catkin_ws/src/imgpcl/include
+Libs: -L/home/kamerider/catkin_ws/devel/lib -limgpcl
+Requires: message_runtime

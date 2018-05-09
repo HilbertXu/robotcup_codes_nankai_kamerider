@@ -1,0 +1,9 @@
+\subsubsection usage Usage
+\verbatim
+<node name="pub_3d_target" pkg="rbx2_utils" type="pub_3d_target">
+  <param name="rate" type="int" value="20" />
+  <param name="move_target_rate" type="int" value="20" />
+  <param name="speed" type="double" value="1.5" />
+</node>
+\endverbatim
+

@@ -1,0 +1,105 @@
+Language model created by QuickLM on Sat Dec 16 04:05:30 EST 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 20 sentences and 22 words
+
+\data\
+ngram 1=22
+ngram 2=40
+ngram 3=20
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-2.0792 APPLE-JUICE -0.2218
+-2.0792 CANNED-FISH -0.2218
+-2.0792 CEREAL -0.2218
+-2.0792 CEREAL-BOWL -0.2218
+-2.0792 DISK -0.2218
+-2.0792 GO-BACK -0.2218
+-2.0792 GREEN-TEA -0.2218
+-2.0792 INSTANT-NOODLE -0.2218
+-2.0792 JACK -0.2218
+-2.0792 JELLY -0.2218
+-2.0792 MILK-BISCUIT -0.2218
+-2.0792 MILK-TEA -0.2218
+-2.0792 MIXED-NUTS -0.2218
+-2.0792 ORANGE-JUICE -0.2218
+-2.0792 POTATO-CHIP -0.2218
+-2.0792 PRINGLES -0.2218
+-2.0792 ROOT-BEER -0.2218
+-2.0792 START -0.2218
+-2.0792 THATS-ALL -0.2218
+-2.0792 TRAY -0.2218
+
+\2-grams:
+-1.6021 <s> APPLE-JUICE 0.0000
+-1.6021 <s> CANNED-FISH 0.0000
+-1.6021 <s> CEREAL 0.0000
+-1.6021 <s> CEREAL-BOWL 0.0000
+-1.6021 <s> DISK 0.0000
+-1.6021 <s> GO-BACK 0.0000
+-1.6021 <s> GREEN-TEA 0.0000
+-1.6021 <s> INSTANT-NOODLE 0.0000
+-1.6021 <s> JACK 0.0000
+-1.6021 <s> JELLY 0.0000
+-1.6021 <s> MILK-BISCUIT 0.0000
+-1.6021 <s> MILK-TEA 0.0000
+-1.6021 <s> MIXED-NUTS 0.0000
+-1.6021 <s> ORANGE-JUICE 0.0000
+-1.6021 <s> POTATO-CHIP 0.0000
+-1.6021 <s> PRINGLES 0.0000
+-1.6021 <s> ROOT-BEER 0.0000
+-1.6021 <s> START 0.0000
+-1.6021 <s> THATS-ALL 0.0000
+-1.6021 <s> TRAY 0.0000
+-0.3010 APPLE-JUICE </s> -0.3010
+-0.3010 CANNED-FISH </s> -0.3010
+-0.3010 CEREAL </s> -0.3010
+-0.3010 CEREAL-BOWL </s> -0.3010
+-0.3010 DISK </s> -0.3010
+-0.3010 GO-BACK </s> -0.3010
+-0.3010 GREEN-TEA </s> -0.3010
+-0.3010 INSTANT-NOODLE </s> -0.3010
+-0.3010 JACK </s> -0.3010
+-0.3010 JELLY </s> -0.3010
+-0.3010 MILK-BISCUIT </s> -0.3010
+-0.3010 MILK-TEA </s> -0.3010
+-0.3010 MIXED-NUTS </s> -0.3010
+-0.3010 ORANGE-JUICE </s> -0.3010
+-0.3010 POTATO-CHIP </s> -0.3010
+-0.3010 PRINGLES </s> -0.3010
+-0.3010 ROOT-BEER </s> -0.3010
+-0.3010 START </s> -0.3010
+-0.3010 THATS-ALL </s> -0.3010
+-0.3010 TRAY </s> -0.3010
+
+\3-grams:
+-0.3010 <s> APPLE-JUICE </s>
+-0.3010 <s> CANNED-FISH </s>
+-0.3010 <s> CEREAL </s>
+-0.3010 <s> CEREAL-BOWL </s>
+-0.3010 <s> DISK </s>
+-0.3010 <s> GO-BACK </s>
+-0.3010 <s> GREEN-TEA </s>
+-0.3010 <s> INSTANT-NOODLE </s>
+-0.3010 <s> JACK </s>
+-0.3010 <s> JELLY </s>
+-0.3010 <s> MILK-BISCUIT </s>
+-0.3010 <s> MILK-TEA </s>
+-0.3010 <s> MIXED-NUTS </s>
+-0.3010 <s> ORANGE-JUICE </s>
+-0.3010 <s> POTATO-CHIP </s>
+-0.3010 <s> PRINGLES </s>
+-0.3010 <s> ROOT-BEER </s>
+-0.3010 <s> START </s>
+-0.3010 <s> THATS-ALL </s>
+-0.3010 <s> TRAY </s>
+
+\end\
