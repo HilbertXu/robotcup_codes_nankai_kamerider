@@ -1,8 +1,0 @@
-prefix=/home/kamerider/catkin_ws/install
-
-Name: face_detection_with_aip
-Description: Description of face_detection_with_aip
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/kamerider/catkin_ws/install/lib 
-Requires: 

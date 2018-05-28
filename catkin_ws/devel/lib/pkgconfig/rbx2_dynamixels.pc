@@ -1,8 +1,0 @@
-prefix=/home/kamerider/catkin_ws/devel
-
-Name: rbx2_dynamixels
-Description: Description of rbx2_dynamixels
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/kamerider/catkin_ws/devel/lib 
-Requires: 

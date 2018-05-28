@@ -1,8 +1,0 @@
-prefix=/home/kamerider/catkin_ws/install
-
-Name: rbx2_gui
-Description: Description of rbx2_gui
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/kamerider/catkin_ws/install/lib 
-Requires: 

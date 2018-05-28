@@ -1,8 +1,0 @@
-prefix=/home/kamerider/catkin_ws/devel
-
-Name: pedestal_pi_no_gripper_moveit_config
-Description: Description of pedestal_pi_no_gripper_moveit_config
-Version: 0.2.0
-Cflags: 
-Libs: -L/home/kamerider/catkin_ws/devel/lib 
-Requires: 

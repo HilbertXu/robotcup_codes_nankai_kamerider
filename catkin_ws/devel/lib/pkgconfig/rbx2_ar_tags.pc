@@ -1,8 +1,0 @@
-prefix=/home/kamerider/catkin_ws/devel
-
-Name: rbx2_ar_tags
-Description: Description of rbx2_ar_tags
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/kamerider/catkin_ws/devel/lib 
-Requires: 

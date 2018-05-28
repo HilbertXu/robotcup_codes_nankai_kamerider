@@ -1,8 +1,0 @@
-prefix=/home/kamerider/catkin_ws/install
-
-Name: ros_package_template
-Description: Description of ros_package_template
-Version: 0.1.0
-Cflags: -I/home/kamerider/catkin_ws/install/include
-Libs: -L/home/kamerider/catkin_ws/install/lib -lros_package_template_core
-Requires: roscpp sensor_msgs
