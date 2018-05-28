@@ -1,0 +1,47 @@
+<!-- 导航launch文件 -->
+<launch>
+  <!-- 唤醒turtlebot -->
+  <include file="/home/kamerider/turtlebot/src/turtlebot/turtlebot_bringup/launch/minimal.launch" />
+  <include file="$(find turtlebot_follower)/launch/includes/velocity_smoother.launch.xml">
+      <arg name="nodelet_manager"  value="/mobile_base_nodelet_manager"/>
+      <arg name="navigation_topic" value="/cmd_vel_mux/input/navi"/>
+  </include>
+ <include file="$(find turtlebot_follower)/launch/includes/safety_controller.launch.xml"/>
+  <!--<include file="~/turtlebot/src/turtlebot_apps/turtlebot_follower/launch/follower.launch" /> -->
+  
+  <include file="$(find freenect_launch)/launch/doublekinect_test.launch">
+  </include>
+  <!-- 加载地图 -->
+  <arg name="map_file" default="/home/kamerider/catkin_ws/src/navigation_test/maps/empty_map.yaml" /> 
+  <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)" />
+    
+ 
+  <arg name="initial_pose_x" default="6.04879"/> 
+  <arg name="initial_pose_y" default="2.43695"/> 
+  <arg name="initial_pose_a" default="0"/>
+
+  <include file="/home/kamerider/turtlebot/src/turtlebot_apps/turtlebot_navigation/launch/includes/amcl/amcl.launch.xml">
+    <arg name="initial_pose_x" value="$(arg initial_pose_x)"/>
+    <arg name="initial_pose_y" value="$(arg initial_pose_y)"/>
+    <arg name="initial_pose_a" value="$(arg initial_pose_a)"/>
+  </include>
+
+ 
+  <!-- 加载move_base -->
+  <include file="/home/kamerider/turtlebot/src/turtlebot_apps/turtlebot_navigation/launch/includes/move_base.launch.xml"/>
+
+  <!-- 3D visualization -->
+  <!-- Rviz -->
+  <node name="rviz" pkg="rviz" type="rviz" respawn="true" args="-d $(find navigation_test)/rviz/navigation.rviz"/>
+  <!-- 加载C++节点 -->
+
+  <node pkg="navigation_test" type="restaurant" name="restaurant" launch-prefix="xterm -e" />
+  <node pkg="navigation_test" type="restaurant_turn" name="restaurant_turn" launch-prefix="xterm -e" />
+  <node pkg="navigation_test" type="emergency" name="emergency"/> 
+
+</launch>
+
+
+
+
+

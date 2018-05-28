@@ -1,0 +1,110 @@
+The 1 waypoint :
+Position:
+  x = 9.99888
+  y = -7.92497
+  z = 0
+Orientation:
+  x = 0
+  y = 0
+  z = 0.0977258
+  w = 0.995213
+--------------------------
+The 2 waypoint :
+Position:
+  x = 7.48906
+  y = -6.25975
+  z = 0
+Orientation:
+  x = 0
+  y = 0
+  z = -0.693007
+  w = 0.720931
+--------------------------
+The 3 waypoint :
+Position:
+  x = 8.84039
+  y = -5.58827
+  z = 0
+Orientation:
+  x = 0
+  y = 0
+  z = 0.752508
+  w = 0.658583
+--------------------------
+The 4 waypoint :
+Position:
+  x = 9.92123
+  y = -0.281176
+  z = 0
+Orientation:
+  x = 0
+  y = 0
+  z = 0.720809
+  w = 0.693133
+--------------------------
+The 5 waypoint :
+Position:
+  x = 8.64592
+  y = -0.5074
+  z = 0
+Orientation:
+  x = 0
+  y = 0
+  z = -0.729102
+  w = 0.684405
+--------------------------
+The 6 waypoint :
+Position:
+  x = 4.81303
+  y = -2.04045
+  z = 0
+Orientation:
+  x = 0
+  y = 0
+  z = -0.751371
+  w = 0.65988
+--------------------------
+The 7 waypoint :
+Position:
+  x = 4.81627
+  y = -4.81602
+  z = 0
+Orientation:
+  x = 0
+  y = 0
+  z = 0.727037
+  w = 0.686598
+--------------------------
+The 8 waypoint :
+Position:
+  x = 3.65221
+  y = -5.56086
+  z = 0
+Orientation:
+  x = 0
+  y = 0
+  z = 0.999997
+  w = 0.00234077
+--------------------------
+The 9 waypoint :
+Position:
+  x = 4.79373
+  y = -6.13591
+  z = 0
+Orientation:
+  x = 0
+  y = 0
+  z = 0.702807
+  w = 0.71138
+--------------------------
+The 10 waypoint :
+Position:
+  x = 1.84413
+  y = -5.55651
+  z = 0
+Orientation:
+  x = 0
+  y = 0
+  z = 0.00133911
+  w = 0.999999
+--------------------------
